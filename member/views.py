@@ -1,3 +1,9 @@
-from django.shortcuts import render
+from rest_framework.mixins import CreateModelMixin,  ListModelMixin
+from rest_framework.viewsets import GenericViewSet
+from member.serializers import MemberSerializer
+from member.models import Member
 
-# Create your views here.
+
+class MemberViewSet(ListModelMixin,CreateModelMixin, GenericViewSet):
+    queryset = Member.objects.all()
+    serializer_class = MemberSerializer
