@@ -1,0 +1,384 @@
+[
+  {
+    "model": "book.author",
+    "pk": 1,
+    "fields": {
+      "name": "Jane Austen",
+      "biography": "English novelist known for 'Pride and Prejudice'."
+    }
+  },
+  {
+    "model": "book.author",
+    "pk": 2,
+    "fields": {
+      "name": "Isaac Newton",
+      "biography": "Renowned physicist and mathematician."
+    }
+  },
+  {
+    "model": "book.author",
+    "pk": 3,
+    "fields": {
+      "name": "Yuval Noah Harari",
+      "biography": "Historian and author of 'Sapiens'."
+    }
+  },
+  {
+    "model": "book.author",
+    "pk": 4,
+    "fields": {
+      "name": "Elon Musk",
+      "biography": "Entrepreneur and innovator."
+    }
+  },
+  {
+    "model": "book.author",
+    "pk": 5,
+    "fields": {
+      "name": "Nelson Mandela",
+      "biography": "Anti-apartheid revolutionary and former President of South Africa."
+    }
+  },
+  {
+    "model": "book.author",
+    "pk": 6,
+    "fields": {
+      "name": "George Orwell",
+      "biography": "English novelist, journalist, and critic."
+    }
+  },
+  {
+    "model": "book.author",
+    "pk": 7,
+    "fields": {
+      "name": "Stephen Hawking",
+      "biography": "Theoretical physicist and cosmologist."
+    }
+  },
+  {
+    "model": "book.author",
+    "pk": 8,
+    "fields": {
+      "name": "Malcolm X",
+      "biography": "African-American Muslim minister and human rights activist."
+    }
+  },
+  {
+    "model": "book.category",
+    "pk": 1,
+    "fields": {
+      "name": "Fiction",
+      "description": "Fictional stories and novels."
+    }
+  },
+  {
+    "model": "book.category",
+    "pk": 2,
+    "fields": {
+      "name": "Science",
+      "description": "Scientific literature and papers."
+    }
+  },
+  {
+    "model": "book.category",
+    "pk": 3,
+    "fields": {
+      "name": "History",
+      "description": "Historical events and figures."
+    }
+  },
+  {
+    "model": "book.category",
+    "pk": 4,
+    "fields": {
+      "name": "Technology",
+      "description": "Tech books and manuals."
+    }
+  },
+  {
+    "model": "book.category",
+    "pk": 5,
+    "fields": {
+      "name": "Biography",
+      "description": "Life stories of famous people."
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 1,
+    "fields": {
+      "title": "Pride and Prejudice",
+      "ISBN": "9780141199078",
+      "author": 1,
+      "category": 1,
+      "is_available": true
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 2,
+    "fields": {
+      "title": "Principia Mathematica",
+      "ISBN": "9780521567817",
+      "author": 2,
+      "category": 2,
+      "is_available": true
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 3,
+    "fields": {
+      "title": "Sapiens",
+      "ISBN": "9780062316110",
+      "author": 3,
+      "category": 3,
+      "is_available": false
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 4,
+    "fields": {
+      "title": "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future",
+      "ISBN": "9780062301239",
+      "author": 4,
+      "category": 4,
+      "is_available": true
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 5,
+    "fields": {
+      "title": "Long Walk to Freedom",
+      "ISBN": "9780316548182",
+      "author": 5,
+      "category": 5,
+      "is_available": true
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 6,
+    "fields": {
+      "title": "1984",
+      "ISBN": "9780451524935",
+      "author": 2,
+      "category": 1,
+      "is_available": true
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 7,
+    "fields": {
+      "title": "Animal Farm",
+      "ISBN": "9780451526342",
+      "author": 3,
+      "category": 1,
+      "is_available": false
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 8,
+    "fields": {
+      "title": "A Brief History of Time",
+      "ISBN": "9780553380163",
+      "author": 1,
+      "category": 2,
+      "is_available": true
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 9,
+    "fields": {
+      "title": "The Autobiography of Malcolm X",
+      "ISBN": "9780345350688",
+      "author": 4,
+      "category": 5,
+      "is_available": true
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 10,
+    "fields": {
+      "title": "Emma",
+      "ISBN": "9780141439587",
+      "author": 1,
+      "category": 1,
+      "is_available": true
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 11,
+    "fields": {
+      "title": "Opticks",
+      "ISBN": "9780486435145",
+      "author": 2,
+      "category": 2,
+      "is_available": true
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 12,
+    "fields": {
+      "title": "Homo Deus",
+      "ISBN": "9780062464316",
+      "author": 3,
+      "category": 3,
+      "is_available": true
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 13,
+    "fields": {
+      "title": "The Future is Faster Than You Think",
+      "ISBN": "9781982109660",
+      "author": 4,
+      "category": 4,
+      "is_available": false
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 14,
+    "fields": {
+      "title": "Conversations with Myself",
+      "ISBN": "9780374533195",
+      "author": 5,
+      "category": 5,
+      "is_available": true
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 15,
+    "fields": {
+      "title": "Sense and Sensibility",
+      "ISBN": "9780141439662",
+      "author": 1,
+      "category": 1,
+      "is_available": true
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 16,
+    "fields": {
+      "title": "The Chronology of Ancient Kingdoms",
+      "ISBN": "9781297447133",
+      "author": 2,
+      "category": 2,
+      "is_available": false
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 17,
+    "fields": {
+      "title": "21 Lessons for the 21st Century",
+      "ISBN": "9780525512196",
+      "author": 3,
+      "category": 3,
+      "is_available": true
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 18,
+    "fields": {
+      "title": "Rocket Science",
+      "ISBN": "9780393337007",
+      "author": 4,
+      "category": 4,
+      "is_available": true
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 19,
+    "fields": {
+      "title": "Dare Not Linger",
+      "ISBN": "9780374136532",
+      "author": 5,
+      "category": 5,
+      "is_available": false
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 20,
+    "fields": {
+      "title": "Mansfield Park",
+      "ISBN": "9780141439808",
+      "author": 1,
+      "category": 1,
+      "is_available": true
+    }
+  },
+
+  {
+    "model": "member.member",
+    "pk": 1,
+    "fields": {
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "membership_date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "model": "member.member",
+    "pk": 2,
+    "fields": {
+      "name": "Bob Smith",
+      "email": "bob@example.com",
+      "membership_date": "2025-01-02T11:00:00Z"
+    }
+  },
+  {
+    "model": "member.member",
+    "pk": 3,
+    "fields": {
+      "name": "Carol Lee",
+      "email": "carol@example.com",
+      "membership_date": "2025-01-03T12:00:00Z"
+    }
+  },
+  {
+    "model": "member.borrowrecord",
+    "pk": 1,
+    "fields": {
+      "book": 1,
+      "member": 1,
+      "borrow_date": "2025-07-01T10:00:00Z",
+      "returned_date": "2025-07-15T10:00:00Z"
+    }
+  },
+  {
+    "model": "member.borrowrecord",
+    "pk": 2,
+    "fields": {
+      "book": 2,
+      "member": 2,
+      "borrow_date": "2025-07-02T11:00:00Z",
+      "returned_date": null
+    }
+  },
+  {
+    "model": "member.borrowrecord",
+    "pk": 3,
+    "fields": {
+      "book": 3,
+      "member": 3,
+      "borrow_date": "2025-07-03T12:00:00Z",
+      "returned_date": "2025-07-13T12:00:00Z"
+    }
+  }
+]
