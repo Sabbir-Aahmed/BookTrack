@@ -13,7 +13,7 @@ BookTrack is a RESTful API for managing a library system built with Django REST 
 - **Borrow Records**: Track borrowing and returning of books.
 - **Permissions**: Librarians have full access; members have read-only or limited access.
 - **API documentation**: Swagger/OpenAPI integrated with `drf-yasg`.
-- **Authentication**: Token or session-based (customize as needed).
+- **JWT Authentication**: Token based (customize as needed).
 
 ---
 
