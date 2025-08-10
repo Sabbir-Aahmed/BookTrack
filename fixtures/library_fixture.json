@@ -324,33 +324,40 @@
     }
   },
 
-  {
+    {
     "model": "member.member",
     "pk": 1,
     "fields": {
-      "name": "Alice Johnson",
       "email": "alice@example.com",
-      "membership_date": "2025-01-01T10:00:00Z"
+      "first_name": "Alice",
+      "last_name": "Johnson",
+      "membership_date": "2025-01-01T10:00:00Z",
+      "is_librarian": false
     }
   },
   {
     "model": "member.member",
     "pk": 2,
     "fields": {
-      "name": "Bob Smith",
       "email": "bob@example.com",
-      "membership_date": "2025-01-02T11:00:00Z"
+      "first_name": "Bob",
+      "last_name": "Smith",
+      "membership_date": "2025-01-02T11:00:00Z",
+      "is_librarian": false
     }
   },
   {
     "model": "member.member",
     "pk": 3,
     "fields": {
-      "name": "Carol Lee",
       "email": "carol@example.com",
-      "membership_date": "2025-01-03T12:00:00Z"
+      "first_name": "Carol",
+      "last_name": "Lee",
+      "membership_date": "2025-01-03T12:00:00Z",
+      "is_librarian": false
     }
   },
+  
   {
     "model": "member.borrowrecord",
     "pk": 1,
