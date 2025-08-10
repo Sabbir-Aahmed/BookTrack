@@ -1,0 +1,15 @@
+{
+    "builds": [
+        {
+            "src": "book_track/wsgi.py",
+            "use": "@vercel/python",
+            "config": { "maxLamdaSize": "15mb", "runtime": "python3.11.3"}
+        }
+    ],
+    "routes":[
+        {
+            "src": "/(.*)",
+            "dest": "book_track/wsgi.py"
+        }
+    ]
+}
